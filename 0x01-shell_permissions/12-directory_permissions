@@ -1,2 +1,2 @@
 #!/bin/bash
-groups
+mkdir -m 751 my_dir
