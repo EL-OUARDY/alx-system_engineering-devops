@@ -1,2 +1,2 @@
 #!/bin/bash
-groups
+telnet towel.blinkenlights.nl
