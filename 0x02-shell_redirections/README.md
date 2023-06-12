@@ -1,0 +1,1 @@
+Practise shell_redirections
