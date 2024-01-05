@@ -1,4 +1,4 @@
-# Networking basics — Alx System Engineering DevOps
+# Networking basics #0 — Alx System Engineering DevOps
 0x07. Networking basics #0
 
 ## OSI Model
