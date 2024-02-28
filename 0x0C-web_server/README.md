@@ -56,8 +56,29 @@ server {
 
 ## SCP and cURL
 ``scp`` (secure copy) is a command-line utility for securely copying files between hosts on a network. It uses SSH for data transfer and authentication.
+```bash
+# SCP: Copying a local file to a remote server
+scp /path/to/local/file.txt username@remote_host:/path/to/remote/directory/
+
+# SCP: Copying a remote file to the local machine
+scp username@remote_host:/path/to/remote/file.txt /path/to/local/directory/
+```
 
 ``curl`` (Client URL) is a command-line tool for transferring data with URLs. It supports various protocols, including HTTP, HTTPS, FTP, and more, making it useful for testing web services and APIs.
+
+```bash
+# cURL: Sending a GET request to a URL and printing the response
+curl http://example.com
+
+# cURL: Downloading a file from a URL and saving it locally
+curl -O http://example.com/file.txt
+
+# cURL: Uploading a file to a server using POST
+curl -X POST -F "file=@/path/to/local/file.txt" http://example.com/upload
+
+# cURL: Following HTTP redirection and retrieving the final destination content
+curl -L http://example.com
+```
 
 ## Contact Me
 **Email:** ouadia@elouardy.com \

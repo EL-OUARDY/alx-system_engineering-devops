@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# script that transfers a file from our client to a server
+# This script transfers a file from our client to a server
 
 # Assigning arguments to variables
 path_to_file="$1"
