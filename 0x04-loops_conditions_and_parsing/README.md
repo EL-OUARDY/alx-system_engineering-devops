@@ -31,6 +31,11 @@ done
 ```
 ### for Loop
 ```bash
+# Iterate over a sequence of numbers
+for ((i = 1; i <= 5; i++)); do
+    echo $i
+done
+# Iterate over items in an array
 for i in {1..5}; do
     echo $i
 done
