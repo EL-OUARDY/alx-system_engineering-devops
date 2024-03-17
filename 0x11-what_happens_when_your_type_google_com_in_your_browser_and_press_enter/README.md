@@ -52,7 +52,7 @@ When the browser receives the response content from the server, it goes through 
 
 - ``HTML``: The browser unwraps the HTML code to understand how the page is built. Then it constructs the **DOM**, which is like a blueprint of the web page's structure.
 - ``CSS``: Applying styles from CSS files, making everything look pretty and organized.
-- ``Javascript``: It adds interactive elements like pop-ups, animations, and dynamic content.
+- ``JavaScript``: It adds interactive elements like pop-ups, animations, and dynamic content.
 - ``Media files``: The browser goes on a quick process to fetch images, videos, and other media to complete the page's look.
 
 After accomplishing those steps, the browser unveils the fully dressed web page for you to enjoy, complete with all the bells and whistles 🙌
