@@ -60,6 +60,8 @@ After accomplishing those steps, the browser unveils the fully dressed web page 
 ## Conclusion
 And there you have it! From typing ``"google.com"`` to seeing the search engine's homepage, there's a whole journey of technology and infrastructure. I hope you enjoyed taking this trip with me to understand what goes on behind the scenes in just a matter of milliseconds.
 
+![Diagram](diagram.png)
+
 ## Author
 **Twitter:** https://twitter.com/_ELOUARDY \
 **Email:** ouadia@elouardy.com
