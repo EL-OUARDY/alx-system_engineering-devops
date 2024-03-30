@@ -31,4 +31,4 @@ if __name__ == "__main__":
 
     filename = f"{employee_id}.json"
     with open(filename, "w") as file:
-        json.dump(dictionary, filename)
+        json.dump(dictionary, file)

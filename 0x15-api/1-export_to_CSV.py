@@ -11,7 +11,7 @@ if __name__ == "__main__":
     endpoint = f"https://jsonplaceholder.typicode.com/users/{id}"
 
     # get user name
-    name = requests.get(endpoint).json().get("name")
+    name = requests.get(endpoint).json().get("username")
 
     # get employee todos
     endpoint += "/todos"
