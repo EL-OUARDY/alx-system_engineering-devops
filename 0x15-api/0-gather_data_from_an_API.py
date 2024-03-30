@@ -16,7 +16,7 @@ if __name__ == "__main__":
     endpoint += "/todos"
     todos = requests.get(endpoint).json()
     completed_todos = [todo for todo in todos if todo.get("completed")]
-    
+
     all = len(todos)
     completed = len(completed_todos)
 
@@ -25,4 +25,4 @@ if __name__ == "__main__":
     )
     # display the title of completed tasks
     for task in completed_todos:
-        print(f"	 {task.get("title")}")
+        print(f"	 {task.get('title')}")
