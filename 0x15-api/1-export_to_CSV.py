@@ -7,7 +7,7 @@ import sys
 
 
 if __name__ == "__main__":
-    employee_id = sys.argv[1]
+    id = sys.argv[1]
     endpoint = f"https://jsonplaceholder.typicode.com/users/{id}"
 
     # get user name
