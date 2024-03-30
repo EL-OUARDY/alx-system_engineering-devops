@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """Script display information about employee TODO list progress"""
 
-import sys
 import requests
+import sys
 
 
 if __name__ == "__main__":
