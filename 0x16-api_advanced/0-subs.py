@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-"""queries the Reddit API and returns the number of subscribers
-(not active users, total subscribers) for a given subreddit"""
+"""
+queries the Reddit API and returns the number of subscribers
+(not active users, total subscribers) for a given subreddit
+"""
 
 import requests
 
@@ -16,9 +18,12 @@ def number_of_subscribers(subreddit):
     # Reddit API requires a User-Agent header
     headers = {"User-Agent": "Mozilla/5.0"}
 
-    # call API
-    response = requests.get(endpoint, headers=headers)
-    subscribers = response.json().get("data").get("subscribers")
-    if subscribers:
-        return subscribers
-    return 0
+    try:
+        # call API and get data
+        response = requests.get(endpoint, headers=headers)
+        subscribers = response.json().get("data").get("subscribers")
+        if subscribers:
+            return subscribers
+        return 0
+    except Exception:
+        return 0
