@@ -20,7 +20,9 @@ def number_of_subscribers(subreddit):
 
     try:
         # call API and get data
-        response = requests.get(endpoint, headers=headers)
+        response = requests.get(
+            endpoint, headers=headers, allow_redirects=False
+        )
         subscribers = response.json().get("data").get("subscribers")
         if subscribers:
             return subscribers

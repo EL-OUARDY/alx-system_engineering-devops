@@ -25,10 +25,12 @@ def top_ten(subreddit):
 
     try:
         # call API and get data
-        response = requests.get(endpoint, headers=headers, params=params)
+        response = requests.get(
+            endpoint, headers=headers, params=params, allow_redirects=False
+        )
         posts = response.json().get("data").get("children")
         if posts:
             for post in posts:
                 print(post.get("data").get("title"))
     except Exception:
-        return 0
+        pass
