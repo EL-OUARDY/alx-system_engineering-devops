@@ -24,23 +24,20 @@ def recurse(subreddit, hot_list=[], after=None):
     # parameters to the request
     params = {"after": after}
 
-    try:
-        # call API and get data
-        response = requests.get(
-            endpoint, headers=headers, params=params, allow_redirects=False
-        )
-        # add post titles to list
-        posts = response.json().get("data").get("children")
-        if posts:
-            for post in posts:
-                hot_list.append(post.get("data").get("title"))
+    # call API and get data
+    response = requests.get(
+        endpoint, headers=headers, params=params, allow_redirects=False
+    )
+    # add post titles to list
+    posts = response.json().get("data").get("children")
+    if posts:
+        for post in posts:
+            hot_list.append(post.get("data").get("title"))
 
-        # check if there are any other posts after
-        after = response.json().get("data").get("after")
-        if after:
-            # call recursive function again to continue fetching next posts
-            return recurse(subreddit, hot_list, after)
-        else:  # end reached
-            return hot_list
-    except Exception:
-        return None
+    # check if there are any other posts after
+    after = response.json().get("data").get("after")
+    if after:
+        # call recursive function again to continue fetching next posts
+        return recurse(subreddit, hot_list, after)
+    else:  # end reached
+        return hot_list

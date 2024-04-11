@@ -18,14 +18,9 @@ def number_of_subscribers(subreddit):
     # Reddit API requires a User-Agent header
     headers = {"User-Agent": "Mozilla/5.0"}
 
-    try:
-        # call API and get data
-        response = requests.get(
-            endpoint, headers=headers, allow_redirects=False
-        )
-        subscribers = response.json().get("data").get("subscribers")
-        if subscribers:
-            return subscribers
-        return 0
-    except Exception:
-        return 0
+    # call API and get data
+    response = requests.get(endpoint, headers=headers, allow_redirects=False)
+    subscribers = response.json().get("data").get("subscribers")
+    if subscribers:
+        return subscribers
+    return 0

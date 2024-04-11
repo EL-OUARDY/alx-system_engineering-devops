@@ -23,14 +23,11 @@ def top_ten(subreddit):
     # parameters to the request
     params = {"limit": 10}
 
-    try:
-        # call API and get data
-        response = requests.get(
-            endpoint, headers=headers, params=params, allow_redirects=False
-        )
-        posts = response.json().get("data").get("children")
-        if posts:
-            for post in posts:
-                print(post.get("data").get("title"))
-    except Exception:
-        pass
+    # call API and get data
+    response = requests.get(
+        endpoint, headers=headers, params=params, allow_redirects=False
+    )
+    posts = response.json().get("data").get("children")
+    if posts:
+        for post in posts:
+            print(post.get("data").get("title"))
