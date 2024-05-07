@@ -8,7 +8,7 @@ import requests
 
 
 def number_of_subscribers(subreddit):
-    """get number of subscribers for a given subreddit"""
+    """get the number of subscribers for a given subreddit"""
 
     # check argument
     if not subreddit or not isinstance(subreddit, str):
