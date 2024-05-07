@@ -13,6 +13,12 @@ Today, let's delve into the journey of accessing a webpage and uncover what happ
 Before we move on, let's define some key elements that are very important to grasp - just to make sure we are on the same page:
 
 - `Browser:` It's just the program you're using right now to preview this website, probably Chrome, Safari, or Firefox.
+- `Website:` A set of files that come together to create a visually appealing page.  
+Every website you browse contains these files:
+    - ***HTML files*** are like the blueprints, defining the structure and content of the page. 
+    - ***CSS files*** add styles (*colors, background, font-size ..*) to the HTML elements. 
+    - ***JavaScript files*** used to make the page come alive and interact with the user. 
+    - ***Media files*** like images/video to make things even more interesting!
 - `Server`: It's simply a computer! Nothing too crazy, haha. We call it that name because it serves a purpose, which in this context, is serving us a website! Servers are located in data centers and they are on all the time. Every company has a server(s) where they host their websites.
 - `IP Address`: is like a digital address for computers or any device connected to the internet. Ex. **142.250.184.174**
 - `Domain Name`: It's the name you use to access a website! For example, google.com. Domains are here because humans cannot remember IP addresses.
