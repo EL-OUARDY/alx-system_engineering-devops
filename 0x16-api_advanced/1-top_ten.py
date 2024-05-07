@@ -14,7 +14,7 @@ def top_ten(subreddit):
 
     # check argument
     if not subreddit or not isinstance(subreddit, str):
-        print(None)
+        print("None")
         return
 
     endpoint = f"https://www.reddit.com/r/{subreddit}/hot.json"
@@ -35,4 +35,4 @@ def top_ten(subreddit):
                 print(post.get("data").get("title"))
 
     except:
-        print(None)
+        print("None")
