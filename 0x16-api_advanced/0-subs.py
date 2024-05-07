@@ -20,7 +20,8 @@ def number_of_subscribers(subreddit):
 
     # call API and get data
     response = requests.get(endpoint, headers=headers, allow_redirects=False)
-    subscribers = response.json().get("data").get("subscribers")
-    if subscribers:
-        return subscribers
+    if response.status_code == 200:
+        subscribers = response.json().get("data").get("subscribers")
+        if subscribers:
+            return subscribers
     return 0
