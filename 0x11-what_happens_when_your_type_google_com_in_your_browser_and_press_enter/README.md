@@ -25,6 +25,7 @@ Every website you browse contains these files:
 
 ## DNS Request
 When you type ``"google.com"`` your browser sends a request to a Domain Name System (DNS) server to translate "google.com" into an **IP address**
+Think of DNS like a phone book where people names are domain names and people phone numbers are IP addresses.
 
 ## TCP/IP
 Once the IP address is retrieved, We know now where the server of the website is located, your browser initiates a connection using Transmission Control Protocol (**TCP**) and Internet Protocol (**IP**). This ensures reliable communication between your computer and Google's servers.
