@@ -1,8 +1,6 @@
 # Application server — Alx System Engineering DevOps
 0x1A. Application server
 
-
-
 ``DevOps``
 ``SysAdmin``
 
