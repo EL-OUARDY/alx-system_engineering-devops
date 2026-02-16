@@ -1,17 +1,36 @@
-# Alx System Engineering DevOps
-Hey folks! 👋 This repo is my playground for mastering Shell, Bash, and diving deep into the world of DevOps as part of the ALX Software Engineering Program.
+# System Engineering DevOps
 
-## Goals
-- **Shell Proficiency**: Mastering command line operations and Shell scripting.
-- **Bash Scripting**: Building efficient and effective Bash scripts.
-- **DevOps Understanding**: Grasping essential DevOps practices for smoother software development.
+This repo is my playground for mastering Shell, Bash, and diving deep into the world of DevOps as part of the ALX Software Engineering Program.
 
-## Why This Repo?
-- **ALX Alignment**: Aligned with the ALX curriculum to reinforce what's being taught in the program.
-- **Learning by Doing**: The best way to learn is by doing. Each script here is a step towards mastery.
+## Table of Contents
+
+- [0x00-shell_basics](./0x00-shell_basics/)
+- [0x01-shell_permissions](./0x01-shell_permissions/)
+- [0x02-shell_redirections](./0x02-shell_redirections/)
+- [0x03-shell_variables_expansions](./0x03-shell_variables_expansions/)
+- [0x04-loops_conditions_and_parsing](./0x04-loops_conditions_and_parsing/)
+- [0x05-processes_and_signals](./0x05-processes_and_signals/)
+- [0x06-regular_expressions](./0x06-regular_expressions/)
+- [0x07-networking_basics](./0x07-networking_basics/)
+- [0x08-networking_basics_2](./0x08-networking_basics_2/)
+- [0x09-web_infrastructure_design](./0x09-web_infrastructure_design/)
+- [0x0A-configuration_management](./0x0A-configuration_management/)
+- [0x0B-ssh](./0x0B-ssh/)
+- [0x0C-web_server](./0x0C-web_server/)
+- [0x0D-web_stack_debugging_0](./0x0D-web_stack_debugging_0/)
+- [0x0E-web_stack_debugging_1](./0x0E-web_stack_debugging_1/)
+- [0x0F-load_balancer](./0x0F-load_balancer/)
+- [0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter](./0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter/)
+- [0x12-web_stack_debugging_2](./0x12-web_stack_debugging_2/)
+- [0x13-firewall](./0x13-firewall/)
+- [0x15-api](./0x15-api/)
+- [0x16-api_advanced](./0x16-api_advanced/)
+- [0x17-web_stack_debugging_3](./0x17-web_stack_debugging_3/)
+- [0x18-webstack_monitoring](./0x18-webstack_monitoring/)
+- [0x19-postmortem](./0x19-postmortem/)
+- [0x1A-application_server](./0x1A-application_server/)
+- [0x1B-web_stack_debugging_4](./0x1B-web_stack_debugging_4/)
 
 ## Let's Connect
-**Twitter:** https://twitter.com/_ELOUARDY \
-**Email:** ouadia@elouardy.com
-> I Love .md Files!
 
+**Email:** contact@wadi3.codes

@@ -47,5 +47,5 @@ It's a super useful tool for debugging and seeing what a program is really doing
 
 ## Contact Me
 
-**Email:** ouadia@elouardy.com \
+**Email:** contact@wadi3.codes \
 **Twitter:** https://twitter.com/_ELOUARDY
